@@ -647,16 +647,16 @@ def about():
 ---------------------------------------------------------------------
     Download Directory : 
     
-    Normal User : /home/$USER/Xbughunting/
+    Normal User : /home/$USER/bughunter/
     
-    Root User : /root/Xbughunting/
+    Root User : /root/bughunter/
    
-    ~/Xbughunting/info/ : Tools for Information Gathering
-    ~/Xbughunting/mapp/ : Tools for Mapping    
-    ~/Xbughunting/disc/ : Tools for Discovery
-    ~/Xbughunting/expt/ : Tools for Exploitation
-    ~/Xbughunting/rept/ : Tools for Reporting
-    ~/Xbughunting/hacking/ : Tools for Hacking
+    ~/bughunter/info/ : Tools for Information Gathering
+    ~/bughunter/mapp/ : Tools for Mapping    
+    ~/bughunter/disc/ : Tools for Discovery
+    ~/bughunter/expt/ : Tools for Exploitation
+    ~/bughunter/rept/ : Tools for Reporting
+    ~/bughunter/hacking/ : Tools for Hacking
 
     Attention : View README.md File for Installation Instruction and How To Use Guide.
 ---------------------------------------------------------------------
