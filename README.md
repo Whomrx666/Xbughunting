@@ -140,6 +140,7 @@ git clone https://github.com/Whomrx666/Xbughunting.git
 cd Xbughunting
 chmod +x Xbughunting.py
 sudo cp Xbughunting.py /usr/bin/Xbughunting
+python2 Xbughunting.py
 ```
 
 ## How To Install for Termux :
@@ -154,7 +155,7 @@ cd Xbughunting
 python2 Xbughunting.py
 ```
 
-that's it.. type ***bughunter*** in terminal to execute the tool.
+that's it.. type ***Xbughunting*** in terminal to execute the tool.
 
 ## Download Directory :
    
