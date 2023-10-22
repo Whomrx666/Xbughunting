@@ -2869,7 +2869,7 @@ def pocs():
 def cheatsheet():
     os.system('clear')
     print (""" 
-    Cheat Sheets for Bug Hunting | https://thehackingsage.github.io
+    Cheat Sheets for Bug Hunting | https://Whomrx666.github.io
     -----------------------------------------------------------------
     
     Pentest Bookmarks : https://github.com/kurobeats/pentest-bookmarks/blob/master/BookmarksList.md
