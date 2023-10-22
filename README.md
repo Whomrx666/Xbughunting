@@ -1,4 +1,4 @@
-<p align="center"><img src="https://github.com/Whomrx666/Xbughunting/blob/master/logo.png?raw=true" /></p>
+<p align="center"><img src="https://github.com/Whomrx666/Xbughunting/blob/main/logo.png?raw=true" /></p>
 
 ## XbugHunting Menu :
 
