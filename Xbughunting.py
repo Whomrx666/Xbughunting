@@ -71,7 +71,7 @@ bughunterlogo = """\033[0m
 def menu():
     clearScr()
     print (bughunterlogo + """\033[1m
-  [!] Top Tools for Bug Hunter [!] | https://github.com/Whomrx666/Xbughunting
+  [!] Top Tools for Bug Hunter [!] https://github.com/Whomrx666/Xbughunting
  -----------------------------------------------------------------------
 \033[0m
    [1] - Information Gathering     [update] - Update The Xbughunting
