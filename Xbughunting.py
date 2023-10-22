@@ -649,7 +649,7 @@ def about():
     
     Normal User : /home/$USER/Xbughunting/
     
-    Root User : /root/Xbughuntingr/
+    Root User : /root/Xbughunting/
    
     ~/Xbughunting/info/ : Tools for Information Gathering
     ~/Xbughunting/mapp/ : Tools for Mapping    
