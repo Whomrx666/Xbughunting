@@ -83,7 +83,7 @@ def menu():
     choice = raw_input("   Xbughunting~# ")
     os.system('clear')
     if choice == "update":
-        updateXbughunting()
+        updatebughunter()
     elif choice == "1":
         info()
     elif choice == "2":
