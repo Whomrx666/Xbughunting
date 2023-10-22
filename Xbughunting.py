@@ -35,14 +35,14 @@ from time import sleep
 
 os.system('clear')
 os.system('clear')
-os.system('mkdir ~/bughunter')
-os.system('mkdir ~/bughunter/info')
-os.system('mkdir ~/bughunter/mapp')
-os.system('mkdir ~/bughunter/disc')
-os.system('mkdir ~/bughunter/expt')
-os.system('mkdir ~/bughunter/repo')
-os.system('mkdir ~/bughunter/sage')
-os.system("rm ~/bughunter/update.sh")
+os.system('mkdir ~/Xbughunting')
+os.system('mkdir ~/Xbughunting/info')
+os.system('mkdir ~/Xbughunting/mapp')
+os.system('mkdir ~/Xbughunting/disc')
+os.system('mkdir ~/Xbughunting/expt')
+os.system('mkdir ~/Xbughunting/repo')
+os.system('mkdir ~/Xbughunting/hacking')
+os.system("rm ~/Xbughunting/update.sh")
 os.system('clear')
 os.system('clear')
 
@@ -83,7 +83,7 @@ def menu():
     choice = raw_input("   Xbughunting~# ")
     os.system('clear')
     if choice == "update":
-        updatebughunter()
+        updateXbughunting()
     elif choice == "1":
         info()
     elif choice == "2":
@@ -647,16 +647,16 @@ def about():
 ---------------------------------------------------------------------
     Download Directory : 
     
-    Normal User : /home/$USER/bughunter/
+    Normal User : /home/$USER/Xbughunting/
     
-    Root User : /root/bughunter/
+    Root User : /root/Xbughuntingr/
    
-    ~/bughunter/info/ : Tools for Information Gathering
-    ~/bughunter/mapp/ : Tools for Mapping    
-    ~/bughunter/disc/ : Tools for Discovery
-    ~/bughunter/expt/ : Tools for Exploitation
-    ~/bughunter/rept/ : Tools for Reporting
-    ~/bughunter/hacking/ : Tools for Hacking
+    ~/Xbughunting/info/ : Tools for Information Gathering
+    ~/Xbughunting/mapp/ : Tools for Mapping    
+    ~/Xbughunting/disc/ : Tools for Discovery
+    ~/Xbughunting/expt/ : Tools for Exploitation
+    ~/Xbughunting/rept/ : Tools for Reporting
+    ~/Xbughunting/hacking/ : Tools for Hacking
 
     Attention : View README.md File for Installation Instruction and How To Use Guide.
 ---------------------------------------------------------------------
@@ -704,16 +704,16 @@ def hacktronian():
     """)
     choicehacktronian = raw_input(" Do You Want To Download Hacktronian? (Y/N) : ")
     if choicehacktronian in yes:
-        os.system("cd ~/bughunter/sage/ && git clone https://github.com/thehackingsage/hacktronian.git")
+        os.system("cd ~/Xbughunting/hacking/ && git clone https://github.com/thehackingsage/hacktronian.git")
     elif choicehacktronian in no:
       clearScr()
-      sage()
+      hacking()
     elif choicehacktronian == "":
          clearScr()
-         sage()
+         hacking()
     else:
          clearScr()
-         sage()
+         hacking()
 
 def hackdroid():
     os.system('clear')
@@ -732,10 +732,10 @@ def hackdroid():
       sage()
     elif choicehackdroid == "":
          clearScr()
-         sage()
+         hacking()
     else:
          clearScr()
-         sage()
+         hacking()
 
 def hacknix():
     os.system('clear')
@@ -748,16 +748,16 @@ def hacknix():
     """)
     choicehacknix = raw_input(" Do You Want To Download Hacknix? (Y/N) : ")
     if choicehacknix in yes:
-        os.system("cd ~/bughunter/sage/ && git clone https://github.com/thehackingsage/hacknix.git")
+        os.system("cd ~/Xbughunting/hacking/ && git clone https://github.com/thehackingsage/hacknix.git")
     elif choicehacknix in no:
       clearScr()
-      sage()
+      hacking()
     elif choicehacknix == "":
          clearScr()
-         sage()
+         hacking()
     else:
          clearScr()
-         sage()    
+         hacking()    
 
 def fluxion():
     os.system('clear')
@@ -769,16 +769,16 @@ def fluxion():
     """)
     choicefluxion = raw_input(" Do You Want To Download Fluxion? (Y/N) : ")
     if choicefluxion in yes:
-        os.system("cd ~/bughunter/sage/ && git clone https://github.com/thehackingsage/Fluxion.git")
+        os.system("cd ~/Xbughunting/hacking/ && git clone https://github.com/thehackingsage/Fluxion.git")
     elif choicefluxion in no:
          clearScr()
-         sage()
+         hacking()
     elif choicefluxion == "":
          clearScr()
-         sage()
+         hacking()
     else:
          clearScr()
-         sage()
+         hacking()
 
 def duckydino():
     os.system('clear')
@@ -792,13 +792,13 @@ def duckydino():
         os.system("firefox https://github.com/thehackingsage/ducky4arduino")
     elif choiceduckydino in no:
       clearScr()
-      sage()
+      hacking()
     elif choiceduckydino == "":
          clearScr()
-         sage()
+         hacking()
     else:
          clearScr()
-         sage()
+         hacking()
 
 def ddos():
     os.system('clear')
@@ -811,16 +811,16 @@ def ddos():
     """)
     choiceddos = raw_input(" Do You Want To Download DoS & DDoS Tools? (Y/N) : ")
     if choiceddos in yes:
-        os.system("cd ~/bughunter/sage/ && git clone https://github.com/thehackingsage/DDoS.git")
+        os.system("cd ~/Xbughunting/hacking/ && git clone https://github.com/thehackingsage/DDoS.git")
     elif choiceddos in no:
       clearScr()
-      sage()
+      hacking()
     elif choiceddos == "":
          clearScr()
-         sage()
+         hacking()
     else:
          clearScr()
-         sage()
+         hacking()
 
 def kaliwsl():
     os.system('clear')
@@ -835,16 +835,16 @@ def kaliwsl():
     """)
     choicekaliwsl = raw_input(" Do You Want To Download Kali-WSL? (Y/N) : ")
     if choicekaliwsl in yes:
-        os.system("cd ~/bughunter/sage/ && git clone https://github.com/thehackingsage/Kali-WSL.git")
+        os.system("cd ~/Xbughunting/hacking/ && git clone https://github.com/thehackingsage/Kali-WSL.git")
     elif choicekaliwsl in no:
       clearScr()
-      sage()
+      hacking()
     elif choicekaliwsl == "":
          clearScr()
-         sage()
+         hacking()
     else:
          clearScr()
-         sage()
+         hacking()
 
 def hackpi():
     os.system('clear')
@@ -857,16 +857,16 @@ def hackpi():
     """)
     choicehackpi = raw_input(" Do You Want To Download HackPi? (Y/N) : ")
     if choicehackpi in yes:
-        os.system("cd ~/bughunter/sage/ && git clone https://github.com/thehackingsage/HackPi.git")
+        os.system("cd ~/Xbughunting/hacking/ && git clone https://github.com/thehackingsage/HackPi.git")
     elif choicehackpi in no:
       clearScr()
-      sage()
+      hacking()
     elif choicehackpi == "":
          clearScr()
-         sage()
+         hacking()
     else:
          clearScr()
-         sage()
+         hacking()
 
 def torfi():
     os.system('clear')
@@ -877,16 +877,16 @@ def torfi():
     """)
     choicehackpi = raw_input(" Do You Want To Download TorFi? (Y/N) : ")
     if choicehackpi in yes:
-        os.system("cd ~/bughunter/sage/ && git clone https://github.com/thehackingsage/torFi.git")
+        os.system("cd ~/Xbughunting/hacking/ && git clone https://github.com/thehackingsage/torFi.git")
     elif choicehackpi in no:
       clearScr()
-      sage()
+      hacking()
     elif choicehackpi == "":
          clearScr()
-         sage()
+         hacking()
     else:
          clearScr()
-         sage()
+         hacking()
 
 # Information Gathering #######################################################
 
@@ -925,7 +925,7 @@ def masscan():
     """)
     choicemasscan = raw_input(" Do You Want To Download MASSCAN? (Y/N) : ")
     if choicemasscan in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/robertdavidgraham/masscan.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/robertdavidgraham/masscan.git")
     elif choicemasscan in no:
       clearScr()
       info()
@@ -946,7 +946,7 @@ def dnsrecon():
     """)
     choicednsrecon = raw_input(" Do You Want To Download DNS-Recon? (Y/N) : ")
     if choicednsrecon in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/darkoperator/dnsrecon.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/darkoperator/dnsrecon.git")
     elif choicednsrecon in no:
       clearScr()
       info()
@@ -968,7 +968,7 @@ def sublister():
     """)
     choicesublister = raw_input(" Do You Want To Download SubList3r? (Y/N) : ")
     if choicesublister in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/aboul3la/Sublist3r.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/aboul3la/Sublist3r.git")
     elif choicesublister in no:
       clearScr()
       info()
@@ -998,7 +998,7 @@ def altdns():
     """)
     choicealtdns = raw_input(" Do You Want To Download Altdns? (Y/N) : ")
     if choicealtdns in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/infosec-au/altdns.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/infosec-au/altdns.git")
     elif choicealtdns in no:
       clearScr()
       info()
@@ -1016,7 +1016,7 @@ def amass():
     """)
     choiceamass = raw_input(" Do You Want To Download Amass? (Y/N) : ")
     if choiceamass in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/caffix/amass.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/caffix/amass.git")
     elif choiceamass in no:
       clearScr()
       info()
@@ -1035,7 +1035,7 @@ def subfinder():
     """)
     choicesubfinder = raw_input(" Do You Want To Download Subfinder? (Y/N) : ")
     if choicesubfinder in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/subfinder/subfinder.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/subfinder/subfinder.git")
     elif choicesubfinder in no:
       clearScr()
       info()
@@ -1054,7 +1054,7 @@ def enumall():
     """)
     choiceenumall = raw_input(" Do You Want To Download Enumall? (Y/N) : ")
     if choiceenumall in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/jhaddix/domain.git && mv domain enumall")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/jhaddix/domain.git && mv domain enumall")
     elif choiceenumall in no:
       clearScr()
       info()
@@ -1073,7 +1073,7 @@ def aquatone():
     """)
     choiceaquatone = raw_input(" Do You Want To Download Aquatone? (Y/N) : ")
     if choiceaquatone in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/michenriksen/aquatone.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/michenriksen/aquatone.git")
     elif choiceaquatone in no:
       clearScr()
       info()
@@ -1091,7 +1091,7 @@ def cloudenum():
     """)
     choicecloudenum = raw_input(" Do You Want To Download Cloudflare Enumeration Tool? (Y/N) : ")
     if choicecloudenum in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/mandatoryprogrammer/cloudflare_enum.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/mandatoryprogrammer/cloudflare_enum.git")
     elif choicecloudenum in no:
       clearScr()
       info()
@@ -1109,7 +1109,7 @@ def infog():
     """)
     choiceinfog = raw_input(" Do You Want To Download InfoG? (Y/N) : ")
     if choiceinfog in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/thelinuxchoice/infog.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/thelinuxchoice/infog.git")
     elif choiceinfog in no:
       clearScr()
       info()
@@ -1129,7 +1129,7 @@ def harvester():
     """)
     choiceharvester = raw_input(" Do You Want To Download The Harvester? (Y/N) : ")
     if choiceharvester in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/laramies/theHarvester.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/laramies/theHarvester.git")
     elif choiceharvester in no:
       clearScr()
       info()
@@ -1147,7 +1147,7 @@ def reconng():
     """)
     choicereconng = raw_input(" Do You Want To Download Recon-ng? (Y/N) : ")
     if choicereconng in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://LaNMaSteR53@bitbucket.org/LaNMaSteR53/recon-ng.git")
     elif choicereconng in no:
       clearScr()
       info()
@@ -1167,7 +1167,7 @@ def setoolkit():
     """)
     choicesetoolkit = raw_input(" Do You Want To Download Setoolkit (Y/N) : ")
     if choicesetoolkit in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/trustedsec/social-engineer-toolkit.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/trustedsec/social-engineer-toolkit.git")
     elif choicesetoolkit in no:
         clearScr()
         info()
@@ -1190,7 +1190,7 @@ def whatweb():
     """)
     choicewhatweb = raw_input(" Do You Want To Download WhatWeb? (Y/N) : ")
     if choicewhatweb in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/urbanadventurer/WhatWeb.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/urbanadventurer/WhatWeb.git")
     elif choicewhatweb in no:
       clearScr()
       info()
@@ -1230,7 +1230,7 @@ def goohak():
     """)
     choicegoohak = raw_input (" Do You Want To Download Goohak? (Y/N) : ")
     if choicegoohak in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/1N3/Goohak.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/1N3/Goohak.git")
     elif choicegoohak in no:
       clearScr()
       info()
@@ -1251,7 +1251,7 @@ def googdorker():
     """)
     choicegoogdorker = raw_input (" Do You Want To Download Googdorker? (Y/N) : ")
     if choicegoogdorker in yes:
-        os.system("cd ~/bughunter/info/ && git clone https://github.com/ZephrFish/GoogD0rker.git")
+        os.system("cd ~/Xbughunting/info/ && git clone https://github.com/ZephrFish/GoogD0rker.git")
     elif choicegoogdorker in no:
       clearScr()
       info()
@@ -1321,7 +1321,7 @@ def nmap():
     """)
     choicenmap = raw_input(" Do You Want To Download Nmap? (Y/N) : ")
     if choicenmap in yes:
-        os.system("cd ~/bughunter/mapp/ && git clone https://github.com/nmap/nmap.git")
+        os.system("cd ~/Xbughunting/mapp/ && git clone https://github.com/nmap/nmap.git")
     elif choicenmap in no:
         clearScr()
         mapping()
@@ -1361,7 +1361,7 @@ def firefoxext():
     """)
     choicefirefoxext = raw_input(" Do You Want To Download Firefox Pentesting Extensions? (Y/N) : ")
     if choicefirefoxext in yes:
-        os.system("cd ~/bughunter/mapp && git clone https://github.com/mazen160/Firefox-Security-Toolkit.git")
+        os.system("cd ~/Xbughunting/mapp && git clone https://github.com/mazen160/Firefox-Security-Toolkit.git")
     elif choicefirefoxext in no:
         clearScr()
         mapping()
@@ -1426,7 +1426,7 @@ def intruderpayload():
     """)
     choiceintruderpayload = raw_input(" Do You Want To Download IntruderPayloads? (Y/N) : ")
     if choiceintruderpayload in yes:
-        os.system("cd ~/bughunter/mapp/ && git clone https://github.com/1N3/IntruderPayloads.git")
+        os.system("cd ~/Xbughunting/mapp/ && git clone https://github.com/1N3/IntruderPayloads.git")
     elif choiceintruderpayload in no:
         clearScr()
         mapping()
@@ -1444,7 +1444,7 @@ def allpayload():
     """)
     choiceallpayload = raw_input(" Do You Want To Download PayloadsAllTheThings? (Y/N) : ")
     if choiceallpayload in yes:
-        os.system("cd ~/bughunter/mapp/ && git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git")
+        os.system("cd ~/Xbughunting/mapp/ && git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git")
     elif choiceallpayload in no:
         clearScr()
         mapping()
@@ -1462,7 +1462,7 @@ def gitallsec():
     """)
     choicegitallsec = raw_input(" Do You Want To Download Git-all-Secrets? (Y/N) : ")
     if choicegitallsec in yes:
-        os.system("cd ~/bughunter/mapp/ && git clone https://github.com/anshumanbh/git-all-secrets.git")
+        os.system("cd ~/Xbughunting/mapp/ && git clone https://github.com/anshumanbh/git-all-secrets.git")
     elif choicegitallsec in no:
         clearScr()
         mapping()
@@ -1566,7 +1566,7 @@ def nikto():
     """)
     choicenikto = raw_input(" Do You Want To Download Nikto? (Y/N) : ")
     if choicenikto in yes:
-        os.system("cd ~/bughunter/disc/ && git clone https://github.com/sullo/nikto.git")
+        os.system("cd ~/Xbughunting/disc/ && git clone https://github.com/sullo/nikto.git")
     elif choicenikto in no:
         clearScr()
         discovery()
@@ -1606,7 +1606,7 @@ def wapiti():
     """)
     choicewapiti = raw_input(" Do You Want To Download Wapiti? (Y/N) : ")
     if choicewapiti in yes:
-        os.system("cd ~/bughunter/disc/ && wget https://sourceforge.net/projects/wapiti/files/wapiti/wapiti-3.0.1/wapiti3-3.0.1.zip")
+        os.system("cd ~/Xbughunting/disc/ && wget https://sourceforge.net/projects/wapiti/files/wapiti/wapiti-3.0.1/wapiti3-3.0.1.zip")
     elif choicewapiti in no:
         clearScr()
         discovery()
@@ -1654,7 +1654,7 @@ def joomscan():
     """)
     choicejoomscan = raw_input(" Do You Want To Download JoomScan? (Y/N) : ")
     if choicejoomscan in yes:
-        os.system("cd ~/bughunter/disc/ && git clone https://github.com/rezasp/joomscan.git")
+        os.system("cd ~/Xbughunting/disc/ && git clone https://github.com/rezasp/joomscan.git")
     elif choicejoomscan in no:
         clearScr()
         discovery()
@@ -1674,7 +1674,7 @@ def waaaf():
     """)
     choicewaaaf = raw_input(" Do You Want To Download W3AF? (Y/N) : ")
     if choicewaaaf in yes:
-        os.system("cd ~/bughunter/disc/ && git clone https://github.com/andresriancho/w3af.git")
+        os.system("cd ~/Xbughunting/disc/ && git clone https://github.com/andresriancho/w3af.git")
     elif choicewaaaf in no:
         clearScr()
         discovery()
@@ -1694,7 +1694,7 @@ def zed():
     """)
     choicezed = raw_input(" Do You Want To Download Wapiti? (Y/N) : ")
     if choicezed in yes:
-        os.system("cd ~/bughunter/disc/ && wget https://github.com/zaproxy/zaproxy/releases/download/w2018-12-10/ZAP_WEEKLY_D-2018-12-10.zip")
+        os.system("cd ~/Xbughunting/disc/ && wget https://github.com/zaproxy/zaproxy/releases/download/w2018-12-10/ZAP_WEEKLY_D-2018-12-10.zip")
     elif choicezed in no:
         clearScr()
         discovery()
@@ -1714,7 +1714,7 @@ def wpscan():
     """)
     choicewpscan = raw_input(" Do You Want To Download WP-Scan? (Y/N) : ")
     if choicewpscan in yes:
-        os.system("cd ~/bughunter/disc/ && git clone https://github.com/wpscanteam/wpscan.git")
+        os.system("cd ~/Xbughunting/disc/ && git clone https://github.com/wpscanteam/wpscan.git")
     elif choicewpscan in no:
         clearScr()
         discovery()
@@ -1735,7 +1735,7 @@ def fuzzdb():
     """)
     choicefuzzdb = raw_input(" Do You Want To Download FuzzDB? (Y/N) : ")
     if choicefuzzdb in yes:
-        os.system("cd ~/bughunter/disc/ && git clone https://github.com/fuzzdb-project/fuzzdb.git")
+        os.system("cd ~/Xbughunting/disc/ && git clone https://github.com/fuzzdb-project/fuzzdb.git")
     elif choicefuzzdb in no:
         clearScr()
         discovery()
@@ -1753,7 +1753,7 @@ def cewl():
     """)
     choicecewl = raw_input(" Do You Want To Download CeWL? (Y/N) : ")
     if choicecewl in yes:
-        os.system("cd ~/bughunter/disc/ && git clone https://github.com/digininja/CeWL.git")
+        os.system("cd ~/Xbughunting/disc/ && git clone https://github.com/digininja/CeWL.git")
     elif choicecewl in no:
         clearScr()
         discovery()
@@ -1792,7 +1792,7 @@ def dirb():
     """)
     choicedirb = raw_input(" Do You Want To Download DIRB? (Y/N) : ")
     if choicedirb in yes:
-        os.system("cd ~/bughunter/disc/ && wget https://sourceforge.net/projects/dirb/files/dirb/2.22/dirb222.tar.gz")
+        os.system("cd ~/Xbughunting/disc/ && wget https://sourceforge.net/projects/dirb/files/dirb/2.22/dirb222.tar.gz")
     elif choicedirb in no:
         clearScr()
         discovery()
@@ -1810,7 +1810,7 @@ def filebuster():
     """)
     choicefilebuster = raw_input(" Do You Want To Download FileBuster? (Y/N) : ")
     if choicefilebuster in yes:
-        os.system("cd ~/bughunter/disc/ && git clone https://github.com/henshin/filebuster.git")
+        os.system("cd ~/Xbughunting/disc/ && git clone https://github.com/henshin/filebuster.git")
     elif choicefilebuster in no:
         clearScr()
         discovery()
@@ -1828,7 +1828,7 @@ def gobuster():
     """)
     choicegobuster = raw_input(" Do You Want To Download GoBuster? (Y/N) : ")
     if choicegobuster in yes:
-        os.system("cd ~/bughunter/disc/ && git clone https://github.com/OJ/gobuster.git")
+        os.system("cd ~/Xbughunting/disc/ && git clone https://github.com/OJ/gobuster.git")
     elif choicegobuster in no:
         clearScr()
         discovery()
@@ -1846,7 +1846,7 @@ def dirsearch():
     """)
     choicedirsearch = raw_input(" Do You Want To Download Wapiti? (Y/N) : ")
     if choicedirsearch in yes:
-        os.system("cd ~/bughunter/disc/ && git clone https://github.com/maurosoria/dirsearch.git")
+        os.system("cd ~/Xbughunting/disc/ && git clone https://github.com/maurosoria/dirsearch.git")
     elif choicedirsearch in no:
         clearScr()
         discovery()
@@ -1866,7 +1866,7 @@ def xssradar():
     """)
     choicexssradar = raw_input(" Do You Want To Download XSS Radar? (Y/N) : ")
     if choicexssradar in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/bugbountyforum/XSS-Radar.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/bugbountyforum/XSS-Radar.git")
     elif choicexssradar in no:
         clearScr()
         exploit()
@@ -1888,7 +1888,7 @@ def xsshunter():
     """)
     choicexsshunter = raw_input(" Do You Want To Download XSS Hunter? (Y/N) : ")
     if choicexsshunter in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/mandatoryprogrammer/xsshunter")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/mandatoryprogrammer/xsshunter")
     elif choicexsshunter in no:
         clearScr()
         exploit()
@@ -1911,7 +1911,7 @@ def xsshunterclient():
     """)
     choicexsshunterclient = raw_input(" Do You Want To Download XSS Hunter Client? (Y/N) : ")
     if choicexsshunterclient in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/mandatoryprogrammer/xsshunter_client.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/mandatoryprogrammer/xsshunter_client.git")
     elif choicexsshunterclient in no:
         clearScr()
         exploit()
@@ -1930,7 +1930,7 @@ def domxss():
     """)
     choicedomxss = raw_input(" Do You Want To Download DOM XSS Scanner? (Y/N) : ")
     if choicedomxss in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/yaph/domxssscanner.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/yaph/domxssscanner.git")
     elif choicedomxss in no:
         clearScr()
         exploit()
@@ -1948,7 +1948,7 @@ def xsser():
     """)
     choicexsser = raw_input(" Do You Want To Download XSSer? (Y/N) : ")
     if choicexsser in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/epsylon/xsser.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/epsylon/xsser.git")
     elif choicexsser in no:
         clearScr()
         exploit()
@@ -1966,7 +1966,7 @@ def brutexss():
     """)
     choicebrutexss = raw_input(" Do You Want To Download BruteXSS? (Y/N) : ")
     if choicebrutexss in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/rajeshmajumdar/BruteXSS.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/rajeshmajumdar/BruteXSS.git")
     elif choicebrutexss in no:
         clearScr()
         exploit()
@@ -1984,7 +1984,7 @@ def xsstrike():
     """)
     choicexsstrike = raw_input(" Do You Want To Download XSStrike (Y/N) : ")
     if choicexsstrike in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/UltimateHackers/XSStrike.git && cd XSStrike && chmod +x * && pip install -r requirements.txt && clear && python xsstrike")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/UltimateHackers/XSStrike.git && cd XSStrike && chmod +x * && pip install -r requirements.txt && clear && python xsstrike")
     elif choicexsstrike in no:
       clearScr()
       exploit()
@@ -2002,7 +2002,7 @@ def xssor():
     """)
     choicexssor = raw_input(" Do You Want To Download XSSor? (Y/N) : ")
     if choicexssor in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/evilcos/xssor2.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/evilcos/xssor2.git")
     elif choicexssor in no:
         clearScr()
         exploit()
@@ -2020,7 +2020,7 @@ def sqlmap():
     """)
     choicesqlmap = raw_input ( "Do You Want To Download Sqlmap? (Y/N) : ")
     if choicesqlmap in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/sqlmapproject/sqlmap.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/sqlmapproject/sqlmap.git")
     elif choicesqlmap in no:
         clearScr()
         exploit()
@@ -2038,7 +2038,7 @@ def oxmlxxe():
     """)
     choiceoxmlxxe = raw_input(" Do You Want To Download OXML-XXE? (Y/N) : ")
     if choiceoxmlxxe in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/BuffaloWill/oxml_xxe.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/BuffaloWill/oxml_xxe.git")
     elif choiceoxmlxxe in no:
         clearScr()
         exploit()
@@ -2057,7 +2057,7 @@ def xeeinj():
     """)
     choicexeeinj = raw_input(" Do You Want To Download XXEinjector? (Y/N) : ")
     if choicexeeinj in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/enjoiz/XXEinjector.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/enjoiz/XXEinjector.git")
     elif choicexeeinj in no:
         clearScr()
         exploit()
@@ -2075,7 +2075,7 @@ def tplmap():
     """)
     choicetplmap = raw_input(" Do You Want To Download Tplmap? (Y/N) : ")
     if choicetplmap in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/epinna/tplmap.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/epinna/tplmap.git")
     elif choicetplmap in no:
         clearScr()
         exploit()
@@ -2093,7 +2093,7 @@ def ssrfdetector():
     """)
     choicessrfdetector = raw_input(" Do You Want To Download SSRF-Detector? (Y/N) : ")
     if choicessrfdetector in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/JacobReynolds/ssrfDetector.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/JacobReynolds/ssrfDetector.git")
     elif choicessrfdetector in no:
         clearScr()
         exploit()
@@ -2111,7 +2111,7 @@ def groundcontrol():
     """)
     choicegroundcontrol = raw_input(" Do You Want To Download Ground Control? (Y/N) : ")
     if choicegroundcontrol in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/jobertabma/ground-control.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/jobertabma/ground-control.git")
     elif choicegroundcontrol in no:
         clearScr()
         exploit()
@@ -2129,7 +2129,7 @@ def lfisuit():
     """)
     choicelfisuit = raw_input(" Do You Want To Download LFISuit? (Y/N) : ")
     if choicelfisuit in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/D35m0nd142/LFISuite.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/D35m0nd142/LFISuite.git")
     elif choicelfisuit in no:
         clearScr()
         exploit()
@@ -2147,7 +2147,7 @@ def genxbinavi():
     """)
     choicegenxbinavi = raw_input(" Do You Want To Download Gen-xbin-Avi? (Y/N) : ")
     if choicegenxbinavi in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/neex/ffmpeg-avi-m3u-xbin.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/neex/ffmpeg-avi-m3u-xbin.git")
     elif choicegenxbinavi in no:
         clearScr()
         exploit()
@@ -2165,7 +2165,7 @@ def gittools():
     """)
     choicegittools = raw_input(" Do You Want To Download GitTools? (Y/N) : ")
     if choicegittools in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/internetwache/GitTools.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/internetwache/GitTools.git")
     elif choicegittools in no:
         clearScr()
         exploit()
@@ -2183,7 +2183,7 @@ def dvcsripper():
     """)
     choicedvcsripper = raw_input(" Do You Want To Download DVSC Ripper? (Y/N) : ")
     if choicedvcsripper in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/kost/dvcs-ripper.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/kost/dvcs-ripper.git")
     elif choicedvcsripper in no:
         clearScr()
         exploit()
@@ -2201,7 +2201,7 @@ def tkosubs():
     """)
     choicetkosubs = raw_input(" Do You Want To Download tko-subs? (Y/N) : ")
     if choicetkosubs in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/anshumanbh/tko-subs.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/anshumanbh/tko-subs.git")
     elif choicetkosubs in no:
         clearScr()
         exploit()
@@ -2219,7 +2219,7 @@ def subbruteforcer():
     """)
     choicesubbruteforcer = raw_input(" Do You Want To Download HostileSubBruteforcer? (Y/N) : ")
     if choicesubbruteforcer in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/nahamsec/HostileSubBruteforcer.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/nahamsec/HostileSubBruteforcer.git")
     elif choicesubbruteforcer in no:
         clearScr()
         exploit()
@@ -2237,7 +2237,7 @@ def secondorder():
     """)
     choicesecondorder = raw_input(" Do You Want To Download Second-Order? (Y/N) : ")
     if choicesecondorder in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/mhmdiaa/second-order.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/mhmdiaa/second-order.git")
     elif choicesecondorder in no:
         clearScr()
         exploit()
@@ -2255,7 +2255,7 @@ def racetheweb():
     """)
     choiceracetheweb = raw_input(" Do You Want To Download Race The Web? (Y/N) : ")
     if choiceracetheweb in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/insp3ctre/race-the-web.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/insp3ctre/race-the-web.git")
     elif choiceracetheweb in no:
         clearScr()
         exploit()
@@ -2273,7 +2273,7 @@ def corstest():
     """)
     choicecorstest = raw_input(" Do You Want To Download CORStest? (Y/N) : ")
     if choicecorstest in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/RUB-NDS/CORStest.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/RUB-NDS/CORStest.git")
     elif choicecorstest in no:
         clearScr()
         exploit()
@@ -2291,7 +2291,7 @@ def rcestrutspwn():
     """)
     choicercestrutspwn = raw_input(" Do You Want To Download RCE struts-pwn? (Y/N) : ")
     if choicercestrutspwn in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/mazen160/struts-pwn.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/mazen160/struts-pwn.git")
     elif choicercestrutspwn in no:
         clearScr()
         exploit()
@@ -2309,7 +2309,7 @@ def ysoserial():
     """)
     choiceysoserial = raw_input(" Do You Want To Download Y-So-Serial? (Y/N) : ")
     if choiceysoserial in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/GoSecure/ysoserial.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/GoSecure/ysoserial.git")
     elif choiceysoserial in no:
         clearScr()
         exploit()
@@ -2327,7 +2327,7 @@ def phpggc():
     """)
     choicephpggc = raw_input(" Do You Want To Download PHP Generic Gadget Chains? (Y/N) : ")
     if choicephpggc in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/ambionics/phpggc.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/ambionics/phpggc.git")
     elif choicephpggc in no:
         clearScr()
         exploit()
@@ -2346,7 +2346,7 @@ def retirejs():
     """)
     choiceretirejs = raw_input(" Do You Want To Download Retire.js? (Y/N) : ")
     if choiceretirejs in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/RetireJS/retire.js.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/RetireJS/retire.js.git")
     elif choiceretirejs in no:
         clearScr()
         exploit()
@@ -2364,7 +2364,7 @@ def getsploit():
     """)
     choicegetsploit = raw_input(" Do You Want To Download Getsploit? (Y/N) : ")
     if choicegetsploit in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/vulnersCom/getsploit.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/vulnersCom/getsploit.git")
     elif choicegetsploit in no:
         clearScr()
         exploit()
@@ -2382,7 +2382,7 @@ def findsploit():
     """)
     choicefindsploit = raw_input(" Do You Want To Download Findsploit? (Y/N) : ")
     if choicefindsploit in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/1N3/Findsploit.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/1N3/Findsploit.git")
     elif choicefindsploit in no:
         clearScr()
         exploit()
@@ -2401,7 +2401,7 @@ def bfac():
     """)
     choicebfac = raw_input(" Do You Want To Download BFAC? (Y/N) : ")
     if choicebfac in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/mazen160/bfac.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/mazen160/bfac.git")
     elif choicebfac in no:
         clearScr()
         exploit()
@@ -2421,7 +2421,7 @@ def wpscann():
     """)
     choicewpscann = raw_input(" Do You Want To Download WPScan? (Y/N) : ")
     if choicewpscann in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/wpscanteam/wpscan.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/wpscanteam/wpscan.git")
     elif choicewpscann in no:
         clearScr()
         exploit()
@@ -2440,7 +2440,7 @@ def cmsmap():
     """)
     choicecmsmap = raw_input(" Do You Want To Download CMSmap? (Y/N) : ")
     if choicecmsmap in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/Dionach/CMSmap.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/Dionach/CMSmap.git")
     elif choicecmsmap in no:
         clearScr()
         exploit()
@@ -2459,7 +2459,7 @@ def joomscan():
     """)
     choicejoomscan = raw_input(" Do You Want To Download Joomscan? (Y/N) : ")
     if choicejoomscan in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/rezasp/joomscan.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/rezasp/joomscan.git")
     elif choicejoomscan in no:
         clearScr()
         exploit()
@@ -2477,7 +2477,7 @@ def jsonwtt():
     """)
     choicejsonwtt = raw_input(" Do You Want To Download The JSON Web Token Toolkit? (Y/N) : ")
     if choicejsonwtt in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/ticarpi/jwt_tool.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/ticarpi/jwt_tool.git")
     elif choicejsonwtt in no:
         clearScr()
         exploit()
@@ -2495,7 +2495,7 @@ def wfuzz():
     """)
     choicewfuzz = raw_input(" Do You Want To Download Wfuzz? (Y/N) : ")
     if choicewfuzz in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/xmendez/wfuzz.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/xmendez/wfuzz.git")
     elif choicewfuzz in no:
         clearScr()
         exploit()
@@ -2513,7 +2513,7 @@ def patator():
     """)
     choicepatator = raw_input(" Do You Want To Download Patator? (Y/N) : ")
     if choicepatator in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/lanjelot/patator.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/lanjelot/patator.git")
     elif choicepatator in no:
         clearScr()
         exploit()
@@ -2532,7 +2532,7 @@ def hydra():
     """)
     choicehydra = raw_input(" Do You Want To Download Hydra? (Y/N) : ")
     if choicehydra in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/vanhauser-thc/thc-hydra.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/vanhauser-thc/thc-hydra.git")
     elif choicehydra in no:
         clearScr()
         exploit()
@@ -2550,7 +2550,7 @@ def changeme():
     """)
     choicechangeme = raw_input(" Do You Want To Download ChangeMe? (Y/N) : ")
     if choicechangeme in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/ztgrace/changeme.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/ztgrace/changeme.git")
     elif choicechangeme in no:
         clearScr()
         exploit()
@@ -2606,7 +2606,7 @@ def wafwoof():
     """)
     choicewafwoof = raw_input(" Do You Want To Download WAFW00F? (Y/N) : ")
     if choicewafwoof in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/EnableSecurity/wafw00f.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/EnableSecurity/wafw00f.git")
     elif choicewafwoof in no:
         clearScr()
         exploit()
@@ -2625,7 +2625,7 @@ def assetnote():
     """)
     choiceassetnote = raw_input(" Do You Want To Download AssetNote? (Y/N) : ")
     if choiceassetnote in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/infosec-au/assetnote")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/infosec-au/assetnote")
     elif choiceassetnote in no:
         clearScr()
         exploit()
@@ -2643,7 +2643,7 @@ def jsbeautifier():
     """)
     choicejsbeautifier = raw_input(" Do You Want To Download JavaScript Beautifier? (Y/N) : ")
     if choicejsbeautifier in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/beautify-web/js-beautify.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/beautify-web/js-beautify.git")
     elif choicejsbeautifier in no:
         clearScr()
         exploit()
@@ -2661,7 +2661,7 @@ def linkfinder():
     """)
     choicelinkfinder = raw_input(" Do You Want To Download LinkFinder? (Y/N) : ")
     if choicelinkfinder in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/GerbenJavado/LinkFinder.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/GerbenJavado/LinkFinder.git")
     elif choicelinkfinder in no:
         clearScr()
         exploit()
@@ -2681,7 +2681,7 @@ def mobsf():
     """)
     choicemobsf = raw_input(" Do You Want To Download Mobile-Security-Framework? (Y/N) : ")
     if choicemobsf in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/MobSF/Mobile-Security-Framework-MobSF.git")
     elif choicemobsf in no:
         clearScr()
         exploit()
@@ -2717,7 +2717,7 @@ def apktool():
     """)
     choiceapktool = raw_input(" Do You Want To Download APKTool? (Y/N) : ")
     if choiceapktool in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/iBotPeaches/apktool.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/iBotPeaches/apktool.git")
     elif choiceapktool in no:
         clearScr()
         exploit()
@@ -2753,7 +2753,7 @@ def jdgui():
     """)
     choicejdgui = raw_input(" Do You Want To Download JD-GUI? (Y/N) : ")
     if choicejdgui in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/java-decompiler/jd-gui.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/java-decompiler/jd-gui.git")
     elif choicejdgui in no:
         clearScr()
         exploit()
@@ -2773,7 +2773,7 @@ def idb():
     """)
     choiceidb = raw_input(" Do You Want To Download idb? (Y/N) : ")
     if choiceidb in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/dmayer/idb.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/dmayer/idb.git")
     elif choiceidb in no:
         clearScr()
         exploit()
@@ -2898,7 +2898,7 @@ def eyewitness():
     """)
     choiceeyewitness = raw_input(" Do You Want To Download EyeWitness (Y/N) : ")
     if choiceeyewitness in yes:
-        os.system("cd ~/bughunter/repo/ && git clone https://github.com/FortyNorthSecurity/EyeWitness.git")
+        os.system("cd ~/Xbughunting/repo/ && git clone https://github.com/FortyNorthSecurity/EyeWitness.git")
     elif choiceeyewitness in no:
       clearScr()
       reporting()
@@ -2917,7 +2917,7 @@ def httpscreenshot():
     """)
     choicehttpscreenshot = raw_input(" Do You Want To Download HTTPScreenshot (Y/N) : ")
     if choicehttpscreenshot in yes:
-        os.system("cd ~/bughunter/repo/ && git clone https://github.com/breenmachine/httpscreenshot.git")
+        os.system("cd ~/Xbughunting/repo/ && git clone https://github.com/breenmachine/httpscreenshot.git")
     elif choicehttpscreenshot in no:
       clearScr()
       reporting()
@@ -2935,7 +2935,7 @@ def bbtemplates():
     """)
     choicebbtemplates = raw_input(" Do You Want To Download Bug Bounty Templates (Y/N) : ")
     if choicebbtemplates in yes:
-        os.system("cd ~/bughunter/repo/ && git clone https://github.com/ZephrFish/BugBountyTemplates.git")
+        os.system("cd ~/Xbughunting/repo/ && git clone https://github.com/ZephrFish/BugBountyTemplates.git")
     elif choicebbtemplates in no:
       clearScr()
       reporting()
@@ -2956,7 +2956,7 @@ def gentemplates():
     """)
     choicegentemplates = raw_input(" Do You Want To Download Template Generator (Y/N) : ")
     if choicegentemplates in yes:
-        os.system("cd ~/bughunter/expt/ && git clone https://github.com/fransr/template-generator.git")
+        os.system("cd ~/Xbughunting/expt/ && git clone https://github.com/fransr/template-generator.git")
     elif choicegentemplates in no:
       clearScr()
       reporting()
