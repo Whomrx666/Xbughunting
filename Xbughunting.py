@@ -1,23 +1,3 @@
-##############
-
-def clearScr():
-    """
-    clear the screen in case of GNU/Linux or Windows
-    """
-    if system() == 'Linux':
-        os.system('clear')
-    if system() == 'Windows':
-        os.system('cls')        
-
-###############################################################################
-
-if __name__ == "__main__":
-    try:
-        menu()
-    except KeyboardInterrupt:
-        print(" Finishing Up...\r"),
-        os.system("clear")
-        time.sleep(0.25)
 # coded by Mr.X
 # hayoo lu mau recode ya kerr:V
 import marshal
