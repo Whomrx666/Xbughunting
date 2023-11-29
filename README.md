@@ -185,5 +185,8 @@ That's it... If You Like This Repo. Please Share This With Your Friends..
 & Don't Forget To Follow Me At [Telegram](https://t.me/@Whomr_X), [blog](whomrxhackers.blogspot.com), [Github](https://www.github.com/Whomrx666) 
 & SUBSCRIBE My [YouTube](https://youtube.com/@whomrx666) Channel..!!!
 
+**If you want to donate, click on the button**
+<a href="https://saweria.co/whomrx"><img title="Donate" src="https://img.shields.io/badge/Donate-Xbughunting-yellow?style=for-the-badge&logo=github"></a>
+
 ***Thankyou.***
 ***Happy Hunting..***
